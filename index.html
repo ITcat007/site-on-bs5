@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homeshop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=REM:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400&family=Sacramento&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top bg-light navbar-light py-3">
+        <div class="container">
+            <a href="#" class="navbar-brand">Homeshop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li class="navbar-item">
+                        <a href="#cases" class="nav-link">Cases</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#questions" class="nav-link">Questions</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#contacts" class="nav-link">Our contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--About-->
+    <section class="bg-light text-dark p-5 text-center text-lg-start">
+        <div class="container">
+            <div class="d-md-flex flex-wrap flex-lg-nowrap justify-content-center align-items-center">
+                <div class="me-lg-5">
+                    <h1>Find <span class="text-success">Your perfect</span> interior design</h1>
+                    <p class="lead my-4">We have been creating unique and wonderful home interiors for over 10 years. We pride ourselves on designing your homes which are individual and perfect for the lifestyle of everyone. 
+                        Once we have all the information, we need we will create a scheme which is the perfect fit for your style. 
+                    </p>
+                    <button class="btn btn-success mb-sm-3 mb-lg-0" data-bs-toggle="modal" data-bs-target="#application">Let's start</button>
+                </div>
+                <img class="img-fluid d-none d-sm-block" src="img/interior.jpg" alt="interior">
+            </div>
+        </div>
+    </section>
+
+    <!--Subscribe-->
+    <section class="bg-warning p-3">
+        <div class="container">
+            <div class="d-md-flex flex-md-wrap flex-lg-nowrap justify-content-center justify-content-lg-between align-items-center text-center">
+                <h5 class="mb-3 mb-lg-0">Sign Up for excellent proposal</h5>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Enter your email">
+                    <button class="btn btn-dark btn-lg" type="button">Subscribe</button>
+                </div>                  
+            </div>
+        </div>
+    </section>
+
+    <!--Boxes-->
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md">
+                    <div class="card bg-success text-light">
+                        <div class="card-body text-center">
+                            <div class="h4 mb-3">
+                                <i class="bi bi-alarm"></i>
+                            </div>
+                            <h5 class="card-title mb-3">We work fast</h5>
+                            <p class="card-text">We work as fast as possible for searching best solutions and realisation of your ideas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-success text-light">
+                        <div class="card-body text-center">
+                            <div class="h4 mb-3">
+                                <i class="bi bi-calculator"></i>
+                            </div>
+                            <h5 class="card-title mb-3">Clear calculations</h5>
+                            <p class="card-text">Transparent calculations and step-by-step payment. Attractive price</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-success text-light">
+                        <div class="card-body text-center">
+                            <div class="h4 mb-3">
+                                <i class="bi bi-emoji-smile"></i>
+                            </div>
+                            <h5 class="card-title mb-3">Happy client</h5>
+                            <p class="card-text">70% of our clients come back to us again with new interesting design tasks</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Cases-->
+    <section class="p-5" id="cases">
+        <div class="container">
+            <div class="row flex-md-column flex-lg-row align-items-center justify-content-between">
+                <div class="col-md text-center text-lg-start">
+                    <img src="img/interior2.jpg" class="img-fluid mb-3 mb-lg-0" alt="case1">
+                </div>
+                <div class="col-md text-lg-end">
+                    <h2 class="mb-5 text-center text-lg-end">Find your inspiration</h2>
+                    <p class="cases__paragraph">We stock a wide range of paints, wallpapers, fabrics and accessories. We're also able to handcraft soft furnishings . Our designers will work closely with our in-house team of makers to ensure that everything works perfectly. </p>
+                    <a href="#" class="btn btn-dark mt-3">
+                        <i class="bi bi-arrow-right-circle me-2"></i>Read more
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-5" id="cases">
+        <div class="container">
+            <div class="row flex-md-column flex-lg-row align-items-center justify-content-between">
+                <div class="col-md order-2 order-lg-1">
+                    <h2 class="mb-5 text-center text-lg-start">Add some accessories</h2>
+                    <p class="cases__paragraph">Finally, we'll dress the interior, ensuring that everything is exactly how you expected it to be. Our service with professionalists ensures that our clients are delighted with new interiors.</p>
+                    <a href="#" class="btn btn-dark mt-3">
+                        <i class="bi bi-arrow-right-circle me-2"></i>Read more
+                    </a>
+                </div>
+                <div class="col-md text-center text-lg-end order-1 order-lg-2">
+                    <img src="img/interior3.jpg" class="img-fluid mb-3 mb-lg-0" alt="case2">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-5" id="cases">
+        <div class="container">
+            <div class="row flex-md-column flex-lg-row align-items-center justify-content-between">
+                <div class="col-md text-center text-lg-start">
+                    <img src="img/interior4.jpg" class="img-fluid mb-3 mb-lg-0" alt="case3">
+                </div>
+                <div class="col-md text-lg-end">
+                    <h2 class="mb-5 text-center text-lg-end">Realize your dream furniture</h2>
+                    <p class="cases__paragraph">We can also custom make furniture to your individual requirements for fit an awkward space.</p>
+                    <a href="#" class="btn btn-dark mt-3">
+                        <i class="bi bi-arrow-right-circle me-2"></i>Read more
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Questions-->
+    <section class="p-5 mt-lg-5" id="questions">
+        <div class="container">
+            <h2 class="text-center mb-4 text-uppercase">Frequently asked questions</h2>
+            <div class="accordion accordion-flush" id="questions">
+                <!--Item 1-->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-one">
+                        Do I get a 3D rendering of project?
+                    </button>
+                  </h2>
+                  <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#questions">
+                    <div class="accordion-body">We typically make 3D renderings for better presentation of future interior. It takes 1-2 days.</div>
+                  </div>
+                </div>
+                <!--Item 2-->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-two">
+                        How to choose a table in living room?
+                    </button>
+                  </h2>
+                  <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#questions">
+                    <div class="accordion-body">Wooden tables give a room a homely feel, while plastic and glass tables make interiors look fashionable.</div>
+                  </div>
+                </div>
+                <!--Item 3-->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-three">
+                        What type of sofa is the most comfortable?
+                    </button>
+                  </h2>
+                  <div id="question-three" class="accordion-collapse collapse" data-bs-parent="#questions">
+                    <div class="accordion-body">a 15" seat height is usually preferred for comfort to suit a variety of guests.</div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Specialists-->
+    <section class="p-5">
+        <div class="container">
+            <h2 class="text-center text-uppercase">Our specialists</h2>
+            <p class="lead mb-5 text-center">
+                Our designers have 7+ years working as a interior designer
+            </p>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="img/specialist1.jpg" alt="Heidi Shell" width="150" class="rounded-circle mb-3">
+                            <h3 class="card-title">Heidi Shell</h3>
+                            <p class="card-text">Interior designer</p>
+                            <a href="#"><i class="bi bi-facebook mx-1 text-success"></i></a>
+                            <a href="#"><i class="bi bi-instagram mx-1 text-success"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="img/specialist2.jpg" alt="Allison Hunter" width="150" class="rounded-circle mb-3">
+                            <h3 class="card-title">Allison Hunter</h3>
+                            <p class="card-text">Furniture Designer</p>
+                            <a href="#"><i class="bi bi-facebook mx-1 text-success"></i></a>
+                            <a href="#"><i class="bi bi-instagram mx-1 text-success"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="img/specialist3.jpg" alt="Simon Bork" width="150" class="rounded-circle mb-3">
+                            <h3 class="card-title">Simon Bork</h3>
+                            <p class="card-text">Interior designer</p>
+                            <a href="#"><i class="bi bi-facebook mx-1 text-success"></i></a>
+                            <a href="#"><i class="bi bi-instagram mx-1 text-success"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Contacts-->
+    <section class="p-5" id="contacts">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg">
+                    <h2 class="text-center mb-4">Contact Info</h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Location:</span> 90A George Street, Edinburgh, United Kingdom EH2 3DF
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Tel:</span> +44 131 225 6000 
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">For cooperation:</span> +44 131 225 6012 
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">E-mail:</span> homeshop-bestdesign@gmail.com 
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg text-center">
+                    <img src="img/location.jpg" class="img-fluid mb-3 mb-lg-0" alt="Edinburgh">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="p-5 position-relative bg-warning text-center">
+        <div class="container">
+            <p class="mb-0">2023&copy; All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="application" tabindex="-1">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-warning">
+                <h6 class="modal-title">Applicant's form</h6>
+            </div>
+            <div class="modal-body">
+                <p class="lead text-center">Fill out this form and we will help you</p>
+                <form>
+                    <div class="mb-3">
+                        <label for="first-name" class="form-label">First name:</label>
+                        <input type="text" class="form-control" id="first-name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="last-name" class="form-label">Last name:</label>
+                        <input type="text" class="form-control" id="last-name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="needed-service" class="form-label">Needed service:</label>
+                        <input type="text" class="form-control" id="needed-service">
+                    </div>
+                    <div class="mb-3">
+                        <label for="e-mail" class="form-label">E-mail:</label>
+                        <input type="text" class="form-control" id="e-mail">
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone:</label>
+                        <input type="text" class="form-control" id="phone">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-success">Submit</button>
+            </div>
+        </div>
+        </div>
+    </div>
+  
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</body>
+</html>
